@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "price": 111,
+        "name": "Chivito uruguayo",
+        "img": "images/1.jpg"
+    },
+    {
+        "id": 2,
+        "price": 98,
+        "name": "Walnut Roll Gužvara",
+        "img": "./images/2.jpg"
+    },
+    {
+        "id": 3,
+        "price": 224,
+        "name": "Fresh sardines",
+        "img": "./images/3.jpg"
+    },
+    {
+        "id": 4,
+        "price": 457,
+        "name": "Burek",
+        "img": "./images/4.jpg"
+    },
+    {
+        "id": 5,
+        "price": 296,
+        "name": "Mushroom soup with buckwheat",
+        "img": "./images/5.jpg"
+    },
+    {
+        "id": 6,
+        "price": 111,
+        "name": "Croatian Bean Stew",
+        "img": "./images/6.jpg"
+    },
+    {
+        "id": 7,
+        "price": 98,
+        "name": "Traditional Croatian Goulash",
+        "img": "./images/7.jpg"
+    },
+    {
+        "id": 8,
+        "price": 224,
+        "name": "Croatian lamb peka",
+        "img": "./images/8.jpg"
+    },
+    {
+        "id": 9,
+        "price": 457,
+        "name": "Pate Chinois",
+        "img": "./images/9.jpg"
+    }
+]
