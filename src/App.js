@@ -33,7 +33,7 @@ function LoadData() {
       </div >
 
       <div className="cart-container">
-        <Cart> </Cart>
+        <Cart > </Cart>
       </div>
     </div>
 
@@ -45,10 +45,12 @@ function Foods(props) {
   return (
     <div className='photo'>
       <div >
+        <img src={props.img} alt="" />
         <h4> Id : {props.id}</h4>
         <p>Name : {props.name}</p>
         <p>Price : {props.price}</p>
-        <img src={props.img} alt="" />
+        <button>Add to card</button>
+
       </div>
     </div>
   )

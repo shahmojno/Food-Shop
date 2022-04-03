@@ -1,11 +1,21 @@
 import React from 'react';
+import './Cart.css'
 
 const Cart = () => {
+
+
     return (
-        <div>
-            <h1> Price :</h1>
+        <div className='cart'>
+            <h3>Id : </h3>
+            <p>Name :  </p>
+            <p>Price : </p>
+
+
         </div>
     );
 };
 
 export default Cart;
+
+
+

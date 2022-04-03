@@ -13,15 +13,7 @@
   }
 }
 
-.Header{
-  height: 80px;
-  background-color: #1C2B35 ;
-  align-items: center;
-  justify-content: center;
-  
 
- 
-}
 .App-link {
   color: #61dafb;
 }
@@ -37,8 +29,8 @@
 
 
 .foods-container img{
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 205px;
 }
 
 .food-container{
@@ -51,6 +43,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 45px;
   margin: 100px 50px;
+  
 }
 .cart-container{
   background-color: rosybrown;
@@ -60,4 +53,10 @@
       grid-template-columns: repeat(2, 1fr);
   }
   
+}
+
+.photo{
+  border: 3px solid salmon;
+  border-radius: 10px;
+  padding: 20px;
 }
