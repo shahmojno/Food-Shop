@@ -2,11 +2,12 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import Cart from './component/cart/Cart';
+import Header from './component/header/Header';
 
 function App() {
   return (
     <div>
-      <h1>This food shop:</h1>
+      <Header></Header>
       <LoadData></LoadData>
     </div>
   );
