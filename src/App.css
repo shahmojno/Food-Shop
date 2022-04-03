@@ -38,8 +38,28 @@
 }
 
 
-.photo img{
+.foods-container img{
   width: 300px;
   height: 300px;
 }
 
+.food-container{
+  display: grid;
+  grid-template-columns: 4fr 1fr ;
+}
+
+.foods-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 45px;
+  margin: 100px 50px;
+}
+.cart-container{
+  background-color: rosybrown;
+}
+@media screen and (max-width:1100px) {
+  .foods-container{
+      grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
